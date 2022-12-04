@@ -62,18 +62,18 @@
     (holiday-fixed 11 1 "Toussaint (férié)")
     (holiday-fixed 11 11 "Armistice de 1918 (férié)")
     (holiday-fixed 12 25 "Noël (férié)"))
-  "Belgian national holidays")
+  "Belgian national holidays.")
 (defvar holiday-walloon-regional-holidays-fr
   '((holiday-fixed 11 2 "Le jour de morts (férié dans l'administration Wallonne)")
     (holiday-fixed 11 15 "Fête du Roi (férié dans l'administration Wallonne)")
     (holiday-fixed 12 26 "26 décembre (férié dans l'administration Wallonne)"))
-  "Wallon regional holidays")
+  "Wallon regional holidays.")
 (defvar carnaval-carnieres-fr
   '((holiday-easter-etc -29 "Soumonces générales et en musique du Carnaval de Carnières")
     (holiday-easter-etc -14 "Dimanche du Carnaval de Carnières")
     (holiday-easter-etc -13 "Lundi du Carnaval de Carnières")
     (holiday-easter-etc -12 "Mardi du Carnaval de Carnières"))
-  "Carnaval of Carnières days")
+  "Carnaval of Carnières days.")
 (defvar belgian-remarkable-days-fr
   '((holiday-fixed 1 6 "Épiphanie")
     (holiday-fixed 2 2 "Chandeleur")
@@ -85,7 +85,7 @@
     (holiday-easter-etc -47 "Mardi gras")
     (holiday-float 5 0 2 "Fête des mères")
     (holiday-float 6 0 2 "Fête des pères"))
-  "Belgian remarkable days")
+  "Belgian remarkable days.")
 
 (provide 'belgian-holidays)
 
