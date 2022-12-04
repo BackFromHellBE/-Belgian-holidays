@@ -1,0 +1,31 @@
+Beligian-holidays
+
+Add Federal and Wallon holidays in the emacs calendar.
+
+* Installation:
+
+M-x package-install RET belgian-holidays RET
+
+* Configuration:
+
+To use `balgian-holidays' in your calendar
+
+#+begin_src emacs-lisp
+  (setq holiday-other-holidays holiday-belgian-national-holidays-fr)
+#+end_src
+
+If you'd like to add local and regional holidays, pick additional holidays
+from 'holiday-walloon-regional-holidays-fr' or 'carnaval-carnieres-fr'.
+
+#+begin_src emacs-lisp
+  (setq holiday-other-holidays
+        (append belgian-remarkable-days-fr carnaval-carnieres-fr))
+  (setq calendar-holidays
+        (append holiday-belgian-national-holidays-fr holiday-walloon-regional-holidays-fr holiday-other-holidays))
+#+end_src
+
+* Nice to have.
+I live and work in Wallonia, so I did not put the dates for the Flemish region and the German-speaking region.
+I also participate in the carnval of my commune, so I put the dates there, others could also be added.
+
+
