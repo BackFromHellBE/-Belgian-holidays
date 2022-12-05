@@ -6,13 +6,13 @@
 ;; Maintainer:
 
 ;; Created: 12/12/2022 20:12:51
-;; Changed: 05/12/2022 23:24:20
+;; Changed: 05/12/2022 23:53:33
 
 ;; Version: 0.1
 ;; Keywords: calendar, Belgian, holidays, Wallonia
 ;; URL: https://gitlab.com/BackFromHell/belgian-holidays
 
-;; Package-Requires: ((emacs "24.1"))
+;; Package-Requires: ((emacs "24.1")(calendar)(holidays))
 
 ;; This file is not part of GNU Emacs
 
