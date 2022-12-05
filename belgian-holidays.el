@@ -2,8 +2,10 @@
 
 ;; Author: Thierry Leurent <thierry.leurent@asgardian.be>
 ;; Version: 0.1
-;; Keywords: calendar
+;; Keywords: calendar, Belgian, holidays, Wallonia
 ;; URL: https://gitlab.com/BackFromHell/belgian-holidays
+
+;; Package-Requires: ((emacs "24.1"))
 
 ;; This file is not part of GNU Emacs
 
