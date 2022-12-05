@@ -1,6 +1,13 @@
-;;; belgian-holidays.el --- Belgian holidays for the calendar  -*- lexical-binding: t; -*-
+;;; belgian-holidays.el --- Belgian holidays for the calendar  -*- lexical-binding: t; coding:utf-8 -*-
+
+;; Copyright (C) 2022 Thierry Leurent
 
 ;; Author: Thierry Leurent <thierry.leurent@asgardian.be>
+;; Maintainer:
+
+;; Created: 12/12/2022 20:12:51
+;; Changed: 05/12/2022 23:24:20
+
 ;; Version: 0.1
 ;; Keywords: calendar, Belgian, holidays, Wallonia
 ;; URL: https://gitlab.com/BackFromHell/belgian-holidays
@@ -50,6 +57,9 @@
 ;; https://www.emacswiki.org/emacs/CalendarLocalization
 
 ;;; Code:
+
+
+
 (eval-when-compile
   (require 'calendar)
   (require 'holidays))
