@@ -1,4 +1,4 @@
-;;; belgian-holidays.el --- Swiss holidays for the calendar  -*- lexical-binding: t; -*-
+;;; belgian-holidays.el --- Belgian holidays for the calendar  -*- lexical-binding: t; -*-
 
 ;; Author: Thierry Leurent <thierry.leurent@asgardian.be>
 ;; Version: 0.1
@@ -69,7 +69,7 @@
     (holiday-fixed 12 26 "26 décembre (férié dans l'administration Wallonne)"))
   "Wallon regional holidays.")
 (defvar carnaval-carnieres-fr
-  '((holiday-easter-etc -29 "Soumonces générales et en musique du Carnaval de Carnières")
+  '((holiday-easter-etc -29 "Sumonces générales et en musique du Carnaval de Carnières")
     (holiday-easter-etc -14 "Dimanche du Carnaval de Carnières")
     (holiday-easter-etc -13 "Lundi du Carnaval de Carnières")
     (holiday-easter-etc -12 "Mardi du Carnaval de Carnières"))
